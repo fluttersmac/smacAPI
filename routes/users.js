@@ -1,6 +1,5 @@
 const express = require('express');
 const usersRouter = express.Router();
-const { client } = require('../ClientFirebase');
 const { admin } = require('../AdminFirebase');
 
 // list all users
